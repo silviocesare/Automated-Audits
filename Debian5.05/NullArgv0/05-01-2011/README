@@ -1,0 +1,2 @@
+It is possible to execve with a null argv[0], which causes many programs to
+crash.  argv[0] normally contains the program name.
