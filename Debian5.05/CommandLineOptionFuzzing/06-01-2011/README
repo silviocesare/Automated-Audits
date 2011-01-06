@@ -1,1 +1,3 @@
 Fuzzing available options with long buffers. I couldn't find an existing fuzzer to do this from googling last light, so I wrote one this morning. I'll release the source code if people are interested.
+
+Only fuzzed optstr.
