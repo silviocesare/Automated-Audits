@@ -1,0 +1,146 @@
+# grep -rw 'printf\(getenv|printf\(argv'
+
+./busybox_1.10.2/shell/ash.c:				sprintf(argv[i], " -%u", pid);
+./vim_7.1.314/src/eval.c:f_printf(argvars, rettv)
+./avra_1.2.2/avra.c:    printf(argv[i]);
+./courier-authlib_0.61.0/authuserdbpwd.c:	sprintf(argv[3], "%spw=%s", services, npwd);
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:  (void)fprintf(argv_error_stream, "%s%s", USAGE_LABEL, argv_program);
+./dmalloc_5.5.1/dmalloc_argv.c:	(void)fprintf(argv_error_stream, "\n%*.*s",
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream, "%s%s", prefix, SHORT_PREFIX);
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream, "]\n%*.*s",
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream, "[%s", SHORT_PREFIX);
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream, "%c", arg_p->ar_short_arg);
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream, "]");
+./dmalloc_5.5.1/dmalloc_argv.c:	(void)fprintf(argv_error_stream, "\n%*.*s",
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream, "%s%s%c",
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream, "\n%*.*s",
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream, "%s%s%s", prefix, var_str, postfix);
+./dmalloc_5.5.1/dmalloc_argv.c:  (void)fprintf(argv_error_stream, "\n");
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:  (void)fprintf(argv_error_stream, "%s%s\n", USAGE_LABEL, argv_program);
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream, "%*.*s", SHORT_COLUMN, SHORT_COLUMN, "");
+./dmalloc_5.5.1/dmalloc_argv.c:	(void)fprintf(argv_error_stream, "%*.*s",
+./dmalloc_5.5.1/dmalloc_argv.c:	(void)fprintf(argv_error_stream, "%s", LONG_LABEL);
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream, "%s%-.*s",
+./dmalloc_5.5.1/dmalloc_argv.c:	(void)fprintf(argv_error_stream, "%*.*s",
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream, "%s%-.*s",
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream, "\n");
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream, "\n");
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	(void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream, "%s: illegal variable type %d\n",
+./dmalloc_5.5.1/dmalloc_argv.c:	(void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream, "%s", LONG_LABEL);
+./dmalloc_5.5.1/dmalloc_argv.c:	(void)fprintf(argv_error_stream, "%s%-.*s",
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream, "%*.*s",
+./dmalloc_5.5.1/dmalloc_argv.c:	(void)fprintf(argv_error_stream, " %-.*s", len, type_p->at_name);
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream, "%s", ARRAY_LABEL);
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream, "%*.*s",
+./dmalloc_5.5.1/dmalloc_argv.c:	(void)fprintf(argv_error_stream, "%s: illegal variable type %d\n",
+./dmalloc_5.5.1/dmalloc_argv.c:	(void)fprintf(argv_error_stream, "no entries");
+./dmalloc_5.5.1/dmalloc_argv.c:  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream, "%*.*s%s%c\n",
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream, "%*.*s%s%c (%s%s)\n",
+./dmalloc_5.5.1/dmalloc_argv.c:  (void)fprintf(argv_error_stream, "%s: %s, must specify one of:\n",
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream, "%*.*s%s%c",
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream, " (%s%s)",
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream, "\n");
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	(void)fprintf(argv_error_stream, "%*.*s%s%c",
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream, " (%s%s)",
+./dmalloc_5.5.1/dmalloc_argv.c:	(void)fprintf(argv_error_stream, "\n");
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	(void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	      (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	      (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	      (void)fprintf(argv_error_stream, "%s: %s\n",
+./dmalloc_5.5.1/dmalloc_argv.c:	      (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	      (void)fprintf(argv_error_stream, "%s: %s%s\n",
+./dmalloc_5.5.1/dmalloc_argv.c:	(void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	    (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:    (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:	  (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream,
+./dmalloc_5.5.1/dmalloc_argv.c:      (void)fprintf(argv_error_stream,
+./dropbear_0.51/svr-chansession.c:		snprintf(argv[0], len, "-%s", baseshell);
+./expect_5.43.0/exp_command.c:		sprintf(argv[0],"-%s",command);
+./expect-tcl8.3_5.43.0/exp_command.c:		sprintf(argv[0],"-%s",command);
+./gnusound_0.7.4/src/marker.c:        snprintf(argv[0], 100, "%d", m->type);
+./gnusound_0.7.4/src/marker.c:        snprintf(argv[1], 100, "%d", m->flags);
+./gnusound_0.7.4/src/marker.c:        snprintf(argv[2], 100, "%f", m->multiplier);
+./gnusound_0.7.4/src/marker.c:        snprintf(argv[3], MIN(100, m->label ?
+./gnusound_0.7.4/src/mixer.c:            snprintf(argv[j], 32, "%f", m->mixtable[i][j]);
+./gnusound_0.7.4/src/mixer.c:        snprintf(argv[j], 32, "%d", m->source_is_mute[j] ? 0 : 1);
+./gnusound_0.7.4/src/mixer.c:        snprintf(argv[j], 32, "%d", m->source_is_solo[j] ? 1 : 0);
+./grass_6.2.3/visualization/nviz/src/nvizMain.c:			sprintf(argv[1], "--");
+./gri_2.12.17/src/popt/popt.c:	sprintf(argv[pos], "%s/%s", con->execPath, script);
+./nedit_5.5/source/window.c:        	sprintf(argv[argc++], "%s%s", win->path, win->filename);
+./nevow_0.9.31/zomne.c:  printf(argv);
+./php5_5.2.6.dfsg.1/ext/pdo_sqlite/sqlite/src/test1.c:  zSql = sqlite3_mprintf(argv[2], argv[3]);
+./php5_5.2.6.dfsg.1/ext/pdo_sqlite/sqlite/src/test1.c:  zSql = sqlite3_mprintf(argv[2],argv[3]);
+./php5_5.2.6.dfsg.1/ext/pdo_sqlite/sqlite/src/test1.c:  z = sqlite3_mprintf(argv[1], a[0], a[1], a[2]);
+./php5_5.2.6.dfsg.1/ext/pdo_sqlite/sqlite/src/test1.c:  z = sqlite3_mprintf(argv[1], a[0], a[1], a[2]);
+./php5_5.2.6.dfsg.1/ext/pdo_sqlite/sqlite/src/test1.c:  z = sqlite3_mprintf(argv[1], a[0], a[1], argc>4 ? argv[4] : NULL);
+./php5_5.2.6.dfsg.1/ext/pdo_sqlite/sqlite/src/test1.c:  z = sqlite3_mprintf(argv[1], a[0], a[1], r);
+./php5_5.2.6.dfsg.1/ext/pdo_sqlite/sqlite/src/test1.c:  z = sqlite3_mprintf(argv[1], r[0]*r[1]);
+./php5_5.2.6.dfsg.1/ext/pdo_sqlite/sqlite/src/test1.c:  z = sqlite3_mprintf(argv[1], argv[2]);
+./php5_5.2.6.dfsg.1/ext/pdo_sqlite/sqlite/src/test1.c:  z = sqlite3_mprintf(argv[1], r);
+./pkg-config_0.22/popt.c:	sprintf(argv[pos], "%s/%s", con->execPath, script);
+./scli_0.3.1/scli/cmds.c:	alias->value = g_strdup_printf(argv[2]);
+./slurm-llnl_1.3.6/src/slurmd/slurmstepd/mgr.c:	snprintf(argv0, sizeof(argv0), "slurmd[%s]", conf->node_name);
+./sqlite_2.8.17/src/test1.c:  z = sqlite_mprintf(argv[1], a[0], a[1], a[2]);
+./sqlite_2.8.17/src/test1.c:  z = sqlite_mprintf(argv[1], a[0], a[1], argc>4 ? argv[4] : NULL);
+./sqlite_2.8.17/src/test1.c:  z = sqlite_mprintf(argv[1], a[0], a[1], r);
+./sqlite_2.8.17/src/test1.c:  z = sqlite_mprintf(argv[1], r[0]*r[1]);
+./sqlite3_3.5.9/src/test1.c:  zSql = sqlite3_mprintf(argv[2], argv[3]);
+./sqlite3_3.5.9/src/test1.c:  zSql = sqlite3_mprintf(argv[2],argv[3]);
+./sqlite3_3.5.9/src/test1.c:  z = sqlite3_mprintf(argv[1], a[0], a[1], a[2]);
+./sqlite3_3.5.9/src/test1.c:  z = sqlite3_mprintf(argv[1], a[0], a[1], a[2]);
+./sqlite3_3.5.9/src/test1.c:  z = sqlite3_mprintf(argv[1], a[0], a[1], argc>4 ? argv[4] : NULL);
+./sqlite3_3.5.9/src/test1.c:  z = sqlite3_mprintf(argv[1], a[0], a[1], r);
+./sqlite3_3.5.9/src/test1.c:  z = sqlite3_mprintf(argv[1], r[0]*r[1]);
+./sqlite3_3.5.9/src/test1.c:  z = sqlite3_mprintf(argv[1], argv[2]);
+./sqlite3_3.5.9/src/test1.c:  z = sqlite3_mprintf(argv[1], r);
+./vnc4_4.1.1+X4.3.0/unix/xc/programs/xrx/xnest-plugin/SetWin.c:		sprintf(argv[2], ":%d", This->display_num);
+./vnc4_4.1.1+X4.3.0/unix/xc/programs/xrx/xnest-plugin/SetWin.c:		sprintf(argv[4], "%ld", This->window);
+./ghc6_6.8.2dfsg1/rts/parallel/SysMan.c:      sprintf(argv[2],"%d",nPEs); /* ToCheck: does this work on all archs */
+./ghc6_6.8.2dfsg1/rts/parallel/SysMan.c:      sprintf(argv[0],"-%08X",sysman_id);  /*flag that its the Main Thread PE and include sysman's id*/
+./mc_4.6.2~git20080311/src/popt.c:	sprintf(argv[pos], "%s/%s", con->execPath, script);
+./openser_1.3.2/modules/perl/perl.c:		sprintf(argv[argc], "-I%s", modpath);
+./wdm_1.28/src/wdm/Greet.c:		sprintf(argv[argc++], "-x%i", wdmXineramaHead);
+./wdm_1.28/src/wdm/Greet.c:	sprintf(argv[argc++], "-f%i", pipe_filedes[1]);
+./avahi_0.6.23/avahi-daemon/setproctitle.c:    vsnprintf(argv_buffer[0], argv_size, fmt, ap);
+./tcsh_6.14.00/win32/ntfunc.c:		wsprintf(argv0,"%s",prog);
+./tcsh_6.14.00/win32/ntfunc.c:				wsprintf(argv0,"%s.exe",prog);
+./tcsh_6.14.00/win32/ntfunc.c:				wsprintf(argv0,"%s.EXE",prog);
+./tcsh_6.14.00/win32/support.c:		wsprintf(argv0,"%s",prog);
+./tcsh_6.14.00/win32/support.c:			wsprintf(argv0,"%s.exe",prog);
+./tcsh_6.14.00/win32/support.c:			wsprintf(argv0,"%s.EXE",prog); /* fix for clearcase */
