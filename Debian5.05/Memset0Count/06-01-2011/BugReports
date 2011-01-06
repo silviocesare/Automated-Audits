@@ -1,0 +1,36 @@
+# some of these have been fixed already in Debian unstable
+
+sdr http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609075
+gridengine-qmon http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609076
+frox http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609077
+libfusionsound-1.0-0 http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609078
+gcx http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609079
+gretl http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609081
+gxemul http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609082
+kq http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609083
+matchbox-panel http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609085
+mnogosearch-common http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609086
+php5-suhosin http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609088
+ptunnel http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609089
+shell-fm http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609090
+sphinx2-bin http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609091
+ssss http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609092
+
+Not sure if default
+tuxpaint
+
+Not compiled by default
+doodle
+e-uae
+
+Not sure which package
+gnome-libs
+slpvm
+
+-- bugs but havent gone through them yet
+vnc4
+wackamole
+warsow
+wmforkplp
+yics
+bibindex (funny comment)
