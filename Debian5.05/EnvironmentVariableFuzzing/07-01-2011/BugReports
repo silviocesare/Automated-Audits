@@ -1,19 +1,30 @@
 # incomplete 
-animate HOME
-arj HOME
-bbcmd BBHOME
-botti PERLIO_DEBUG
-chicken CHICKEN_INCLUDE_PATH
+imagemagick http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609177
+	animate MAGICK_DEBUG
+	compare MAGICK_DEBUG
+	composite MAGICK_DEBUG
+	conjure MAGICK_DEBUG
+	convert MAGICK_DEBUG
+	display MAGICK_DEBUG
+	identify MAGICK_DEBUG
+	import MAGICK_DEBUG
+	mogrify MAGICK_DEBUG
+	montage MAGICK_DEBUG
+	stream MAGICK_DEBUG
+arj HOME http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609178
+hobbit-client http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609179
+	bbcmd BBHOME
+irssi http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609180
+	botti PERL5OPT (unrecognized strings)
+
+--
+
+chicken CHICKEN_INCLUDE_PAT
 chicken-setup CHICKEN_SETUP_OPTIONS
-compare HOME
-composite HOME
-conjure HOME
-convert HOME
 csc CSC_OPTIONS
 csi HOME
 cswig SWIG_FEATURES
 dbpmda PMNS_DEFAULT
-display HOME
 expect DOTDIR
 fld ??
 
