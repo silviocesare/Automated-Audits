@@ -1,0 +1,19 @@
+# incomplete 
+animate HOME
+arj HOME
+bbcmd BBHOME
+botti PERLIO_DEBUG
+chicken CHICKEN_INCLUDE_PATH
+chicken-setup CHICKEN_SETUP_OPTIONS
+compare HOME
+composite HOME
+conjure HOME
+convert HOME
+csc CSC_OPTIONS
+csi HOME
+cswig SWIG_FEATURES
+dbpmda PMNS_DEFAULT
+display HOME
+expect DOTDIR
+fld ??
+

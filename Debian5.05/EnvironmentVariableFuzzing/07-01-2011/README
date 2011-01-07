@@ -1,0 +1,1 @@
+Environment variable fuzzing all binaries, not just SUID/SGID.
