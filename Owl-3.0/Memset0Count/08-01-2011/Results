@@ -1,0 +1,3 @@
+./rpm-4.2/db/btree/bt_open.c:           memset(buf, dbp->pgsize, 0);
+./rpm-4.2/db/hash/hash_open.c:          memset(buf, dbp->pgsize, 0);
+./slang-1.4.6/demo/pager.c:   memset ((char *) line, sizeof (File_Line_Type), 0);
