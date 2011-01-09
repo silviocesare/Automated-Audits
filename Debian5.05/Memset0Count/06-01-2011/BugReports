@@ -15,6 +15,18 @@ ptunnel http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609089
 shell-fm http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609090
 sphinx2-bin http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609091
 ssss http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609092
+warsow http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609387
+yics http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609386
+bibindex (funny comment) http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609385
+citadel http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609384
+cnews http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609383
+freeradius http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609382
+gnat-gps (bad comment) http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609381
+openser http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609379
+rott http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609378
+rstatd http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609377
+ifile http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609376
+libqfits0 http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609375
 
 Not sure if default
 tuxpaint
@@ -30,7 +42,4 @@ slpvm
 -- bugs but havent gone through them yet
 vnc4
 wackamole
-warsow
 wmforkplp
-yics
-bibindex (funny comment)
