@@ -1,0 +1,27 @@
+./cylindrix-1.0/smartmem.c:    memset( (char *)smart_heap, smart_heap_size, 0 );
+./dnssec-tools-1.8/validator/libval/val_crypto.c:    memset(ds_digest, SHA256_DIGEST_LENGTH, 0);
+./doodle-0.7.0/src/doodle/semaphore.c:  memset(handle, sizeof(pthread_t), 0);
+./gridengine/source/clients/qmon/qmon_cluster.c:   memset((void*)clen, sizeof(tCClEntry), 0);
+./gridengine/source/clients/qmon/qmon_qaction.c:   memset((void*)data, sizeof(tQCEntry), 0);
+./gridengine/source/daemons/common/admin_mail.c:      memset(admail_times, sizeof(admail_times), 0);
+./gridengine/source/daemons/common/admin_mail.c:      memset(admail_times, sizeof(admail_times), 0);
+./grub-1.98/fs/ufs.c:   grub_memset (buf, UFS_BLKSZ (sblock) - skipfirst, 0);
+./gxemul-0.4.7.2/experiments/udp_snoop.c:       memset((char *)&si, sizeof(si), 0);
+./libzip-0.9.3/lib/zip_dirent.c:    memset(&tm, sizeof(tm), 0);
+./messiggy-0.5.0/src/callbacks.c:                            memset(record.common_name,40,0);
+./messiggy-0.5.0/src/callbacks.c:                            memset(record.type,24,0);
+./messiggy-0.5.0/src/callbacks.c:                            memset(record.constellation,20,0);
+./messiggy-0.5.0/src/callbacks.c:                            memset(record.size,12,0);
+./qt-everywhere-opensource-src-4.7.0/src/3rdparty/ptmalloc/malloc.c:#define INITIAL_LOCK(sl)      (memset((sl), 0, sizeof(MLOCK_T)), 0)
+./qt-everywhere-opensource-src-4.7.0/src/3rdparty/ptmalloc/malloc.c:#define INITIAL_LOCK(sl)      (memset(sl, 0, sizeof(MLOCK_T)), 0)
+./mpich2-1.2.1p1/src/mpi/debugger/tvtest.c:    memset( &cb, sizeof(cb), 0 );
+./mpich2-1.2.1p1/src/mpid/ch3/channels/nemesis/nemesis/netmod/wintcp/wintcp_lmt.c:    memset (&saddr, sizeof(saddr), 0);
+./mpich2-1.2.1p1/src/mpid/ch3/channels/nemesis/nemesis/netmod/wintcp/wintcp_lmt.c:        memset (&saddr, sizeof(saddr), 0);
+./openser-1.3.4-tls/modules/xcap_client/xcap_functions.c:               memset(buf, 128* sizeof(char), 0);
+./pdns-2.9.22/pdns/ext/nedmalloc/malloc.c:#define INITIAL_LOCK(sl)      (memset((sl), 0, sizeof(MLOCK_T)), 0)
+./pdns-2.9.22/pdns/ext/nedmalloc/malloc.c:#define INITIAL_LOCK(sl)      (memset(sl, 0, sizeof(MLOCK_T)), 0)
+./php-5.3.3/ext/zip/lib/zip_dirent.c:    memset(&tm, sizeof(tm), 0);
+./proxyknife-1.7/src/readconf.c:          memset (proxyknife_conf, strlen (optarg) + 1, 0);
+./tuxpaint-0.9.21/src/tuxpaint.c:    memset(utfstr, utfstr_max, 0);
+./u-boot-2010.03/drivers/usb/host/ehci-hcd.c:   memset(p, sz, 0);
+./gnome-libs-1.4.2/libgnome/gnome-metadata.c:#define ZERO(Dbt) memset (&(Dbt), sizeof (DBT), 0)
