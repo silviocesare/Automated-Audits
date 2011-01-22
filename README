@@ -1,0 +1,18 @@
+Automated bug and vulnerability audits of Linux distributions
+
+A number of vulnerabilites were discovered using these audits. Additionally many non
+security related bug reports resulted from this work.
+
+Memset(x,y,0) Bugs
+------------------
+
+Debian are now incorporating automated checks for this class of bug inspired by this
+audit [1].
+
+[1] http://lists.debian.org/debian-devel/2011/01/msg00656.html
+    https://github.com/danmar/cppcheck/commit/6ec4497919363ca3a81b61ce8121a9b48e46fe63
+
+--
+Silvio Cesare
+Deakin University
+silvio.cesare _at_ gmail _dot_ com
